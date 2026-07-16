@@ -16,7 +16,7 @@ st.write("Google의 강력한 Gemini 3.5 Flash 모델을 활용해 맞춤형 마
 st.markdown("---")
 
 # 사이드바에 API 키 입력창 생성
-gemini_api_key = st.secrets["AIzaSyBJcRX9Bz4EA_zyEWAEgwIl4EiVwNpHx-k"]
+gemini_api_key = st.secrets["GEMINI_API_KEY"]
 
 # 사용자 입력 받기
 st.subheader("📋 정보를 입력해 주세요")
